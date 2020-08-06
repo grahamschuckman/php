@@ -1,0 +1,59 @@
+img {
+	width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+table, tr, th, td {
+	border: 2px solid black;
+}
+
+th, td {
+	padding: 2px;
+  text-align: center;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=password], input[type=tel], input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #D3D3D3; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Space the buttons 10px from the top of anything */
+  margin-bottom: 20px; /* Space the buttons 20px from the bottom of anything */
+}
+
+/* Set a style for the submit and reset buttons on a form and all other buttons */
+input[type=submit], input[type=reset], button {
+  background-color: #4CAF50; /* Make the button background green */
+  color: white; /* Make the button text white */
+  padding: 10px; /* Make the buttons bigger */
+  border-radius: 5px; /* Make the buttons edges rounded */
+  border: none; /* Remove the borders from the buttons */
+  margin-top: 10px; /* Space the buttons 10px from the top of anything */
+  margin-bottom: 10px; /* Space the buttons 10px from the bottom of anything */
+  width:100%; /* Max the width of the buttons in the container or column */
+}
+
+input[type=submit], input[type=reset] {
+  width: 45%;
+  display:inline-block; /* Keeps buttons in the same line */
+}
+
+button a {
+  color: white;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container{
+  padding: 10px;
+}

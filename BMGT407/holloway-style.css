@@ -1,0 +1,102 @@
+table,th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+th,td{
+	padding: 5px;
+	text-align: left;
+}
+.invoiceimg{
+	width: 10%
+}
+.invoicenav input[type=text]{
+	float: right;
+  	padding: 6px;
+  	border: 1px solid blue;
+  	margin-top: 8px;
+  	margin-right: 16px;
+  	margin-bottom: 8px;
+  	font-size: 17px;
+  	width:20%
+ }
+
+.searchcontain {
+	width:80%
+}
+
+.invoiceimg:hover {opacity: 0.5;}
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+table#t01 th {
+  color: white;
+  background-color: black;
+}
+
+
+table{
+ width: 100%
+}
+
+label{
+	margin-left: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+ width: 70%; /* Full width */
+ padding: 12px; /* Some padding */
+ border: 1px solid #ccc; /* Gray border */
+ border-radius: 4px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in
+place */
+ margin-top: 6px; /* Add a top margin */
+ margin-bottom: 16px; /* Bottom margin */
+ margin-left: 15px;
+ margin-right: 20px;
+ resize: vertical /* Allow the user to vertically resize the textarea
+(not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+ background-color: #4CAF50;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ margin:20px;
+}
+/* When moving the mouse over the submit button, add a darker green
+color */
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+/* Bordered form */
+form {
+ border: 3px solid #f1f1f1;
+}
+
+/* Set a style for all buttons */
+button {
+ background-color: #4CAF50;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+/* Add a hover effect for */
+img{
+	width: 100%
+}
+
+.container{
+  padding: 10px;
+}
+
